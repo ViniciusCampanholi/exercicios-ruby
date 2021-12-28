@@ -9,7 +9,7 @@ while pc_num != user_num
     if pc_num > user_num
         puts "O numero e maior que #{user_num}" 
     else
-        puts "O numero e menor que #{user_num}" 
+        puts "O numero e menor que #{user_num}"
     end
     chance += 1
     puts "Tente novamente: "
