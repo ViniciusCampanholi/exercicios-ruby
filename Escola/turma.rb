@@ -1,5 +1,5 @@
 class Turma
-    attr_writer :alunos
+    attr_reader :alunos
     attr_accessor :nome, :num_sala, :prof_res, :alunos
     
     def initialize(nome, num_sala, prof_res)
@@ -20,4 +20,7 @@ class Turma
             puts nomes
         end
     end
+
+    private
+    attr_writer :alunos
 end
